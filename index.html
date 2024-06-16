@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <style>
+        img{
+            width: 150px;
+            height: 150px;
+            margin-left: 150px;
+        }
+
+        .form-container {
+            width: 40%;
+            height: 500px;
+            margin: 100px 0 0 550px;
+        }
+
+        #username,#password {
+            width:70%;
+            height: 30px;
+            margin-top: 3px;;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+        #login {
+            color: white;
+            background-color: #4DB151;
+            width: 66.5%;
+            padding: 6px;
+            margin-left: 20px;
+            font-weight: bold;
+            border: 1px solid white;
+        }
+
+        span {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        #check {
+            margin-left: 20px;
+        }
+
+        .footer {
+            background-color: #E8E8E8;
+            width: 63%;
+            height: 32px;
+            padding: 10px;
+            text-align: right;
+        }
+
+        #cancel {
+            margin-right: 200px;
+            color: white;
+            background-color: #F44435;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border:1px solid #F44435;
+            padding: 8px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <img src="./login.png" alt="login-image">
+        <div>
+            <label for="username">Username</label><br/>
+            <input type="text" name="username" id="username" placeholder="Enter Username">
+        </div>
+        <div>
+            <label for="password">Password</label><br/>
+            <input type="text" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <button id="login">Login</button>
+        <p><input type="checkbox" id="check">Remember Me</p>
+        <div class="footer">
+            <button id="cancel">Cancel</button>
+            <a href="" style="color: black;">Forget password?</a>
+        </div>
+    </div>
+</body>
+</html>
